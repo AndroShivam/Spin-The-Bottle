@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/changeBottle"
+        android:title="Change Bottle">
+
+        <menu>
+            <group
+                android:id="@+id/group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/cocaCola"
+                    android:checkable="true"
+                    android:title="Coca Cola" />
+                <item
+                    android:id="@+id/pepsi"
+                    android:checkable="true"
+                    android:title="Pepsi" />
+                <item
+                    android:id="@+id/fanta"
+                    android:checkable="true"
+                    android:title="Fanta" />
+            </group>
+        </menu>
+    </item>
+</menu>
